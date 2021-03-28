@@ -1,0 +1,82 @@
+.tz-active-wrap {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.tz-active-wrap .timer-list {
+  background-color: #fff3f1;
+  margin-bottom: 12px;
+}
+.tz-active-wrap .timer-list li {
+  position: relative;
+  width: 204px;
+  height: 55px;
+  text-align: center;
+  color: #77797a;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.tz-active-wrap .timer-list li:first-child {
+  padding-left: 16px;
+  color: #fe5c4b;
+}
+.tz-active-wrap .timer-list li:first-child.checked .title,
+.tz-active-wrap .timer-list li:first-child.checked .time {
+  color: #fff;
+}
+.tz-active-wrap .timer-list li:first-child.checked .time > span {
+  background: hsla(0, 0%, 100%, 0.25);
+}
+.tz-active-wrap .timer-list li:first-child .title {
+  display: flex;
+  align-items: center;
+  padding: 6px 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #fe5c4b;
+}
+.tz-active-wrap .timer-list li:first-child .title .icon-spike {
+  margin-right: 6px;
+  margin-top: -2px;
+}
+.tz-active-wrap .timer-list li:first-child .time {
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+}
+.tz-active-wrap .timer-list li:first-child .time span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #fff;
+  margin-right: 3px;
+  background-color: #fd6c50;
+  border-radius: 2px;
+}
+.tz-active-wrap .timer-list li:first-child .time em {
+  font-style: normal;
+}
+.tz-active-wrap .timer-list .time_comming {
+  position: relative;
+  line-height: 55px;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+.tz-active-wrap .timer-list .time_comming label {
+  margin-right: 12px;
+}
+.tz-active-wrap .timer-list .checked {
+  font-weight: 700;
+  color: #fff;
+  background: url(https://www-cdn-res.shiguangkey.com/pc-office-wesite/img/6505dd6.png) center / cover no-repeat;
+}
+.tz-active-wrap .active-list {
+  width: 100%;
+  justify-content: space-between;
+}
+.tz-active-wrap .active-list .card-course {
+  margin-bottom: 0;
+}
